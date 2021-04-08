@@ -1,0 +1,17 @@
+.boardCard .btnGroupVisibleOnHover {
+    opacity: 0%;
+}
+
+.boardCard:hover .btnGroupVisibleOnHover {
+    opacity : 100%;
+    transition : opacity 0.5s ease;
+}
+
+.btn-group-sm i {
+    opacity : 40%;
+    transition : opacity 0.5s ease;
+}
+
+.btn-group-sm i:hover {
+    opacity : 100%
+}
